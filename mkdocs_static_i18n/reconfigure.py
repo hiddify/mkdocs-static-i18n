@@ -75,6 +75,7 @@ except Exception:
         "zh",
     ]
     log.warning("Unable to detect lunr languages from mkdocs distribution")
+LUNR_LANGUAGES.append("fa")
 MKDOCS_THEMES = ["mkdocs", "readthedocs"]
 
 
